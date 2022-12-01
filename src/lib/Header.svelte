@@ -34,7 +34,12 @@
     >{iconVision} {isRatingTitle}</span>
   <span class="repo">
     Repository
-    <img src="./src/assets/github.svg" alt="" />
+    <a
+      href="https://github.com/TLucas97/ur-movie-reviews"
+      target="_blank"
+      rel="noopener noreferrer">
+      <img src="./src/assets/github.svg" alt="" />
+    </a>
   </span>
 </main>
 

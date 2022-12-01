@@ -68,7 +68,7 @@
     }
   };
   const shareReviewOnSocialMedia = () => {
-    const url = "https://www.google.com";
+    const url = "https://github.com/TLucas97/ur-movie-reviews";
     const text = `I just reviewed ${selectedMovie.title} on YourMovieRatings app and gave it ${rating} stars!, heres my review: ${newReviewer.review}`;
     const twitterUrl = `https://twitter.com/intent/tweet?url=${url}&text=${text}`;
     window.open(twitterUrl, "_blank");
@@ -107,19 +107,19 @@
     </div>
     <div class="stars">
       <button class="star-btn" on:mouseenter="{() => (rating = 1)}">
-        <StarIcon size="35" color="{rating > 0 && 'yellow'}" />
+        <StarIcon size="35" color="{rating > 0 && '#FFBF00'}" />
       </button>
       <button class="star-btn" on:mouseenter="{() => (rating = 2)}">
-        <StarIcon size="35" color="{rating > 1 && 'yellow'}" />
+        <StarIcon size="35" color="{rating > 1 && '#FFBF00'}" />
       </button>
       <button class="star-btn" on:mouseenter="{() => (rating = 3)}">
-        <StarIcon size="35" color="{rating > 2 && 'yellow'}" />
+        <StarIcon size="35" color="{rating > 2 && '#FFBF00'}" />
       </button>
       <button class="star-btn" on:mouseenter="{() => (rating = 4)}">
-        <StarIcon size="35" color="{rating > 3 && 'yellow'}" />
+        <StarIcon size="35" color="{rating > 3 && '#FFBF00'}" />
       </button>
       <button class="star-btn" on:mouseenter="{() => (rating = 5)}">
-        <StarIcon size="35" color="{rating > 4 && 'yellow'}" />
+        <StarIcon size="35" color="{rating > 4 && '#FFBF00'}" />
       </button>
     </div>
     <button class="confirm-btn" on:click="{confirmRating}">Confirm</button>

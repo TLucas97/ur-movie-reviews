@@ -70,7 +70,7 @@
         <div class="stars-flex">
           <p class="star">
             {#each Array(movie.rating) as star}
-              <Star color="yellow" />
+              <Star color="#FFBF00" />
             {/each}
           </p>
         </div>
