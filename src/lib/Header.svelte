@@ -33,11 +33,11 @@
   <span class="title" on:click="{handleNavigation}"
     >{iconVision} {isRatingTitle}</span>
   <span class="repo">
-    Repository
     <a
       href="https://github.com/TLucas97/ur-movie-reviews"
       target="_blank"
       rel="noopener noreferrer">
+      Repository
       <img src="./src/assets/github.svg" alt="" />
     </a>
   </span>
@@ -57,9 +57,13 @@
     }
 
     .repo {
-      display: flex;
-      align-items: center;
       cursor: pointer;
+
+      a {
+        display: flex;
+        align-items: center;
+      }
+      
       img {
         width: 1.5em;
         margin-left: 0.5em;
